@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="charset=utf-8" />
+    <title>Sample 960, 12 Column Grid Layout</title>
+    <link rel="stylesheet" type="text/css" href="960-12col.css" />
+    <style>
+        /* Column margins */
+        .col_12, /* full width */
+        .col_9, /* 3/4 width */
+        .col_8, /* 2/3 width */
+        .col_6, /* half width */
+        .col_4, /* 1/3 width */
+        .col_3 /* 1/4 width */
+        {
+            height:50px;
+            margin-top:10px;
+            margin-bottom:10px;
+            text-align:center;
+            display:table-cell;
+            vertical-align:central;
+        }
+    </style>
+</head>
+
+<body>
+<div class="row">
+    <div class="col_12 first" style="border:1px solid #fc5138; color: #fc5138;"><p>Full width header</p></div>
+</div>
+<div class="row">
+    <div class="col_9 first" style="background-color:#b3ff93"><p>3/4</p></div>
+    <div class="col_3 last" style="background-color:#6CC"><p>1/4</p></div>
+</div>
+<div class="row">
+    <div class="col_8 first" style="background-color:#6b8fff"><p>2/3</p></div>
+    <div class="col_4 last" style="background-color:#f96c73"><p>1/3</p></div>
+</div>
+<div class="row">
+    <div class="col_4 first" style="background-color:#f96c73"><p>1/3</p></div>
+    <div class="col_8 last" style="background-color:#6b8fff"><p>2/3</p></div>
+</div>
+<div class="row">
+    <div class="col_6 first" style="background-color:#fff15d"><p>1/2</p></div>
+    <div class="col_6 last" style="background-color:#fff15d"><p>1/2</p></div>
+</div>
+<div class="row">
+    <div class="col_3 first" style="background-color:#b2f1ff"><p>1/3</p></div>
+    <div class="col_3" style="background-color:#b2f1ff"><p>1/3</p></div>
+    <div class="col_3 last" style="background-color:#b2f1ff"><p>1/3</p></div>
+</div>
+<div class="row">
+    <div class="col_4 first" style="background-color:#c4afff"><p>1/4</p></div>
+    <div class="col_4" style="background-color:#c4afff"><p>1/4</p></div>
+    <div class="col_4" style="background-color:#c4afff"><p>1/4</p></div>
+    <div class="col_4 last" style="background-color:#c4afff"><p>1/4</p></div>
+</div>
+<div class="row">
+    <div class="col_12 first" style="border:1px solid #fc5138; color: #fc5138;"><p>Full width footer</p></div>
+</div>
+</body>
+</html>
